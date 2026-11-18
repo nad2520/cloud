@@ -33,3 +33,8 @@ docker compose down
 ```
 
 To also delete the database data, use `docker compose down -v`.
+
+## Run locally with Kubernetes
+
+See [the Kubernetes guide](k8s/README.md) for Linux/Windows prerequisites,
+deployment, and a demonstration of scaling the backend from one to three replicas.
